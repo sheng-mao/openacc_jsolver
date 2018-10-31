@@ -11,4 +11,4 @@
 
 #launch job with srun, not mpirun/mpiexec
 ./jsolvec.exe
-#make c++ OPT="-tp haswell -ta=multicore -Minfo=accel"
+#make c++ OPT="-tp haswell-64 -ta=multicore -Minfo=accel"
