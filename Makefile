@@ -4,7 +4,7 @@ choose:
 CPP=pgc++
 FC=pgfortran
 TIMER=/usr/bin/time
-OPT=-tp haswell
+OPT=-tp haswell-64
 NOPT=-fast -Minfo=opt $(OPT)
 ARGS=1000
 
