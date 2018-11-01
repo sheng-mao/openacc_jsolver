@@ -1,0 +1,5 @@
+/usr/bin/time ./jsolvec.exe 1000
+./jsolvec.exe: error while loading shared libraries: libcudadevice.so: cannot open shared object file: No such file or directory
+0.00user 0.00system 0:00.00elapsed 67%CPU (0avgtext+0avgdata 244maxresident)k
+0inputs+0outputs (0major+92minor)pagefaults 0swaps
+make: *** [c++] Error 127

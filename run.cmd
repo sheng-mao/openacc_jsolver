@@ -7,8 +7,8 @@
 #set up environment
 
 #module load openmpi/intel-17.0 intel/17.0
-module load pgi/18.5/64
+module load pgi-llvm/18.5/64
 
 #launch job with srun, not mpirun/mpiexec
-#./jsolvec.exe
-make c++ OPT="-tp haswell-64 -ta=multicore -Minfo=accel"
+./jsolvec.exe
+#make c++ OPT="-tp haswell-64 -ta=multicore -Minfo=accel"
